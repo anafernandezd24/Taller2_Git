@@ -20,6 +20,8 @@ app.config.suppress_callback_exceptions = True
 
 # Cambio realizado desde la rama ana-viz
 
+# Repositorio sincronizado con GitHub
+
 # Load data from csv
 def load_data():
     data = pd.read_csv("datos_energia.csv")
